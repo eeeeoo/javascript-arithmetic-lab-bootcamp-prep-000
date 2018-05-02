@@ -28,6 +28,7 @@ function makeInt(n){
   parseInt(parseInt(n), 10)
   if (n !== parseInt(n)){
     return 'NaN'
+  }
 }
 
 function preserveDecimal(n){
